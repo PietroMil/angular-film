@@ -8,12 +8,14 @@ import { HomeComponent } from './pages/home/home.component';
 import { FormsModule } from '@angular/forms';
 import { DetailComponent } from './pages/detail/detail.component';
 import { ApiService } from './service/api.service';
+import { NavBarComponent } from './component/navigation/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    DetailComponent
+    DetailComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
